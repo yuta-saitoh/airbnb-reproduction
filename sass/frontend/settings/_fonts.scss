@@ -1,0 +1,16 @@
+// フォント関連
+$default-font-size: 14px;
+
+$font-family: 'HiraMinProN-W3', 'DIN_Condensed_Bold', 'NotoSansCJKjp-Regular', 'NotoSansCJKjp-DemiLight';
+@font-face {
+    font-family: 'DIN_Condensed_Bold';
+    src: url('../../../font/DIN_Condensed_Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'NotoSansCJKjp-Regular';
+    src: url('../../../font/NotoSans/NotoSansCJKjp-Regular.otf') format('truetype');
+}
+@font-face {
+    font-family: 'NotoSansCJKjp-DemiLight';
+    src: url('../../../font/NotoSans/NotoSansCJKjp-DemiLight.otf') format('truetype');
+}

@@ -1,0 +1,41 @@
+.top-view {
+    width: 100%;
+    position: relative;
+    > .toptxt {
+        font-family: 'NotoSansCJKjp-Black';
+        margin-top: 150px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+        text-align: left;
+        font-size: 120px;
+        font-weight: bold;
+        line-height: 150px;
+        letter-spacing: -.12em;
+        background-image: url("/img/blue_txt.gif");
+        background-position: center;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        @include respond(phone) {
+            margin-bottom: 8vh;
+            margin-left: 5vw; 
+            font-size: 7vw;
+            line-height: 6vh;
+        }
+    }
+    > .arrow {
+        display: block;
+        width: 75px;
+        height: 60px;
+        margin: 0 auto;
+        margin-bottom: 200px;
+        cursor: pointer;
+        @include respond(phone) {
+            width: 30px;
+            height: 30px;
+            margin-top: 10vh;
+        }
+    }
+    > #slide {
+        padding-top: 30px;
+    }
+}

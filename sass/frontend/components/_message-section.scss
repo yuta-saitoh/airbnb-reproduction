@@ -1,0 +1,98 @@
+.message-section {
+    padding-bottom: 200px;
+    position: relative;
+    width: 100%;
+    @include respond(phone){
+        padding-bottom: 100px;
+    }
+    > .toptxt {
+        width: 1500px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    > .bgimg {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        @include respond(phone){
+            height: auto;
+            object-fit: contain;
+        }
+    }
+    > .reptxt1 {
+        $font-family: 'HiraMinProN-W3';
+        font-size: 25px;
+        position: absolute;
+        top: 300px;
+        left: 850px;
+        @include respond(phone){
+            font-size: 2vw;
+            top: 15vh;
+            left: 40vw;
+        }
+    }
+    > .reptitle1 {
+        $font-family: 'HiraMinProN-W3';
+        font-size: 25px;
+        position: absolute;
+        top: 600px;
+        left: 850px;
+        @include respond(phone){
+            font-size: 2vw;
+            top: 30vh;
+            left: 40vw;
+        }
+    }
+    > .message1 {
+        font-family: 'NotoSansCJKjp-DemiLight';
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 150px;
+        position: relative;
+        @include respond(phone){
+            margin-top: 100px;
+            width: 80%;
+            font-size: 2vw;
+        }
+        > .message1title {
+            color: #87CEEB;
+            font-weight: bold;
+            font-size: 24px;
+            text-align: center;
+            @include respond(phone){
+                font-size: 4vw;
+            }
+        }
+        > .message1 {
+            color: #87CEEB;
+            padding-top: 40px;
+            padding-bottom: 100px;
+        }
+        > .speaker1 {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            margin-right: 30px;
+            @include respond(phone){
+                width: 200px;
+                height: 200px;
+            }
+        }
+        > .square {
+            width: 250px;
+            height: 250px;
+            background-color: #008BBB;
+            z-index: -20;
+            position: absolute;
+            top: 380px;
+            left: 55px;
+            @include respond(phone){
+                width: 200px;
+                height: 200px;
+                top: 50vh;
+            }
+        }
+    }
+}

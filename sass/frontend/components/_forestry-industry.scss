@@ -1,0 +1,44 @@
+.forestry-industry {
+    padding-bottom: 150px;
+    @include respond(phone){
+        padding-bottom: 100px;
+    }
+    > .toptxt {
+        font-family: 'NotoSansCJKjp-DemiLight';
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 100px;
+        @include respond(phone){
+            width: 80%;
+            font-size: 2vw;
+        }
+    }
+    > .businessmodels {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        @include respond(phone){
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        > .previous {
+            width: 350px;
+            height: 350px;
+            margin-right: 100px;
+        }
+        > .arrow {
+            width: 100px;
+            height: 400px;
+        }
+        > .current {
+            width: 350px;
+            height: 350px;
+            margin-left: 100px;
+        }
+    }
+}

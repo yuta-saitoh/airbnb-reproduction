@@ -1,0 +1,53 @@
+.top-wrapper {
+    color: #87CEEB;
+    border-bottom: thin solid #87CEEB;
+    width: 100%;
+    height: 70px;
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+    &:hover {
+        background-color:#F2F2F2;
+    }
+    > .english {
+        display: inline-block;
+        width: 300px;
+        height: 50px;
+        position: absolute;
+        top: 50%;
+        left: 100px;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        @include respond(phone){
+            font-size: 3vw;
+            left: 5vw;
+        }
+    }
+    > .japanese {
+        font-family: 'NotoSansCJKjp-Regular';
+        opacity: 0;
+        display: inline-block;
+        font-size: 35px;
+        font-weight: normal;
+        letter-spacing: .2em;
+        position: absolute;
+        top: 50%;
+        left: 20vw;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        @include respond(phone){
+            font-size: 4vw;
+            left: 10vw;
+        }
+    }
+    > .japanese:nth-child(2){
+        @include respond(phone){
+            left: 48vw;
+        }
+    }
+    .show {
+        opacity: 1;
+    }
+}
