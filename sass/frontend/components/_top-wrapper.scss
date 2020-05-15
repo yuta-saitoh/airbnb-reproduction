@@ -38,7 +38,7 @@
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         @include respond(phone){
-            font-size: 4vw;
+            font-size: 3vw;
             left: 10vw;
         }
     }

@@ -36,6 +36,9 @@
         &:nth-child(2) {
             > .content {
                 padding-right: 80px;
+                @include respond(phone){
+                    padding-right: 0; 
+                }
             }
         }
     }

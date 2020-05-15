@@ -29,8 +29,8 @@
         left: 850px;
         @include respond(phone){
             font-size: 2vw;
-            top: 15vh;
-            left: 40vw;
+            top: 7vh;
+            left: 45vw;
         }
     }
     > .reptitle1 {
@@ -41,8 +41,8 @@
         left: 850px;
         @include respond(phone){
             font-size: 2vw;
-            top: 30vh;
-            left: 40vw;
+            top: 20vh;
+            left: 45vw;
         }
     }
     > .message1 {

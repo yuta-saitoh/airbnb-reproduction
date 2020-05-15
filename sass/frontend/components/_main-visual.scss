@@ -14,7 +14,6 @@
         height: 100%;
         width: 100%;
         @include respond(phone){
-            height: auto;
             object-fit: contain;
         }
     }

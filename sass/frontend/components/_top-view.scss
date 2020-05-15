@@ -32,7 +32,8 @@
         @include respond(phone) {
             width: 30px;
             height: 30px;
-            margin-top: 10vh;
+            margin-top: 5vh;
+            margin-bottom: 5vh;
         }
     }
     > #slide {
