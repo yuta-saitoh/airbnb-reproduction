@@ -1,44 +1,16 @@
 // settings
-@import "settings/colors";
-@import "settings/fonts";
-@import "settings/max-width";
 
 // tools
-@import "tools/mixins";
 
 // generic
-@import "generic/reset";
-@import "generic/root-font-size";
-@import "generic/border-box";
-@import "generic/typography";
 
 // elements
 
 // objects
 
-
 // components
-@import "components/body-setting";
-@import "components/global-nav";
-@import "components/nav-menu";
-@import "components/top-view";
-@import "components/slide-left";
-@import "components/top-wrapper";
-@import "components/main-visual";
-@import "components/according-list";
-@import "components/our-policy";
-@import "components/principle-list";
-@import "components/forestry-industry";
-@import "components/recruit-section";
-@import "components/message-section";
-@import "components/message3-section";
-@import "components/company-overview";
-@import "components/contact-info";
-@import "components/footer-section";
-
+@import 'components/body';
 
 // pages
-// @import "pages/home";
 
 // utilities
-@import "utilities/main";
