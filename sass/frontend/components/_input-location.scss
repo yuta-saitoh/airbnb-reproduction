@@ -1,0 +1,37 @@
+.input-location {
+    display: inline-block;
+    height: 100%;
+    width: 36.5%;
+    border-right: 1px solid rgb(221,221,221);
+    position: relative;
+    &:nth-of-type(2) {
+        width: 18%;
+    }
+    &:nth-of-type(3) {
+        width: 18%;
+    }
+    &:nth-of-type(4) {
+        width: 18%;
+        border-right: none;
+    }
+}
+
+.input-location > .form:focus {
+    outline: none;
+}
+
+.input-location p {
+    padding-top: 14px;
+    margin-top: 0;
+    margin-left: 23px;
+    font-size: 5px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.input-location input {
+    border: none;
+    position: absolute;
+    left: 21px;
+    bottom: 17px;
+}
