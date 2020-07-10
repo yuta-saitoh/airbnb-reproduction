@@ -1,4 +1,5 @@
 // settings
+@import 'settings/reset';
 
 // tools
 
@@ -9,7 +10,16 @@
 // objects
 
 // components
+@import 'components/body-setting';
+@import 'components/covid-info';
 @import 'components/top-header';
+@import 'components/search-bar';
+@import 'components/input-location';
+@import 'components/article-section';
+@import 'components/article-container';
+@import 'components/cooking-section';
+@import 'components/footer-section';
+@import 'components/footer-info';
 
 // pages
 

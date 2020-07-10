@@ -1,0 +1,44 @@
+.cooking-section {
+    padding: 50px 80px;
+    background-color: black;
+}
+
+.cooking-section > .upper {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cooking-section > .upper > .subtitle {
+    color: white;
+    text-decoration: none;
+}
+
+.cooking-section > .lower {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.cooking-section > .lower > .rightside > .rightupper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cooking-section > .lower > .rightside > .rightupper > .section {
+    width: 48%;
+    > img {
+        width: 100%;
+        height: 300px;
+        object-fit: contain;
+    }
+}
+
+
+
+
