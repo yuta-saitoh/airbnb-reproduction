@@ -1,0 +1,34 @@
+.article-container {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.article-container > .article {
+    cursor: pointer;
+    border-radius: 10px;
+    width: 32%;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.article-container > .article > .articleimg {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+.article-container > .article > .category {
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 0;
+    padding-left: 15px;
+}
+
+.article-container > .article > .title {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 13px;
+    padding: 0;
+    padding-left: 15px;
+}
