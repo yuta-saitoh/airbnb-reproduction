@@ -1,0 +1,56 @@
+.cooking-pc {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: $white-color;
+    @include respond(phone) {
+        display: none;
+    }
+}
+
+.cooking-pc > .leftside {
+    width: 100%;
+}
+
+.cooking-pc > .rightside {
+    width: 100%;
+    padding: 0 25px;
+    @include respond(tab-land) {
+        width: 50%;
+    }
+}
+
+.cooking-pc > .rightside > .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    @include respond(tab-land) {
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.cooking-pc > .rightside > .top > .section {
+    width: 45%;
+    @include respond(tab-land) {
+        margin: 0 auto;
+        width: 80%;
+    }
+    > .image {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+.cooking-pc > .rightside > .bottom {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    @include respond(tab-land) {
+        display: none;
+    }
+}

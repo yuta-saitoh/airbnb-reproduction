@@ -1,0 +1,50 @@
+.search-box {
+    position: relative;
+    width: 98%;
+    height: 70px;
+    border-radius: 10px;
+    border: solid 1px $light-gray-color;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.search-box > .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background:$red-color;
+    border-radius:5px;
+    font-weight: bold;
+    color:$white-color;
+    cursor:pointer; 
+    letter-spacing:.2px;
+    text-align:center;
+    user-select:none;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    @include respond(tab-land) {
+        width: 50px;
+    }
+}
+
+.search-box > .button > .input {
+    @include respond(tab-land) {
+        display: none;
+    }
+}
+
+
+.search-box > .button > .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    @include respond(tab-land) {
+        margin-right: 0;
+    }
+}
