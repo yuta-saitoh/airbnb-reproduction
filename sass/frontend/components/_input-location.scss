@@ -1,0 +1,31 @@
+.input-location {
+    display: inline-block;
+    height: 100%;
+    border-right: 1px solid $light-gray-color;
+    position: relative;
+    width: 18%;
+    &.-wide {
+        width: 36%;
+    }
+    &.-border {
+        border-right: none;
+    }
+}
+
+.input-location > .form:focus {
+    outline: none;
+}
+
+.input-location .name {
+    padding-top: 15px;
+    margin-left: 25px;
+    font-size: 5px;
+    font-weight: bold;
+}
+
+.input-location input {
+    border: none;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}

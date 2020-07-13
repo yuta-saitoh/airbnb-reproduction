@@ -1,0 +1,53 @@
+.footer-info {
+    display: inline-block;
+}
+
+
+.footer-info > .title {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+    @include respond(tab-land) {
+        margin-bottom: 20px;
+    }
+}
+
+.footer-info > .infogroup {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    @include respond(tab-land) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-bottom: solid 1px $light-gray-color;
+    }
+    @include respond(phone) {
+        display: block;
+    }
+}
+
+.footer-info > .infogroup > .list {
+    @include respond(tab-land) {
+        flex-basis: 33%;
+        margin-bottom: 20px;
+    }
+}
+
+.footer-info > .infogroup > .list > .item {
+    color: $black-color;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    letter-spacing: -.05em;
+    line-height: 2em;
+    @include respond(tab-land) {
+        font-size: 12px;
+    }
+}
+
+.footer-info > .infogroup > .list > .item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: .8;
+}

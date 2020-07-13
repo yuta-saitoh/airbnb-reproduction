@@ -1,0 +1,12 @@
+.article-section > .container > .title {
+    font-weight: normal;
+    margin-bottom: 70px;
+    font-size: 50px;
+    letter-spacing: -0.02em;
+    line-height: 1.2em;
+    color: 	$red-color;
+    @include respond(tab-port) {
+        font-size: 30px;
+    }
+}
+
