@@ -1,17 +1,13 @@
 .input-location {
     display: inline-block;
     height: 100%;
-    width: 36.5%;
-    border-right: 1px solid rgb(221,221,221);
+    border-right: 1px solid $light-gray-color;
     position: relative;
-    &:nth-of-type(2) {
-        width: 18%;
+    width: 18%;
+    &.-wide {
+        width: 36%;
     }
-    &:nth-of-type(3) {
-        width: 18%;
-    }
-    &:nth-of-type(4) {
-        width: 18%;
+    &.-border {
         border-right: none;
     }
 }
@@ -20,18 +16,16 @@
     outline: none;
 }
 
-.input-location p {
-    padding-top: 14px;
-    margin-top: 0;
-    margin-left: 23px;
+.input-location .name {
+    padding-top: 15px;
+    margin-left: 25px;
     font-size: 5px;
     font-weight: bold;
-    margin-bottom: 0;
 }
 
 .input-location input {
     border: none;
     position: absolute;
-    left: 21px;
-    bottom: 17px;
+    left: 20px;
+    bottom: 15px;
 }

@@ -1,15 +1,12 @@
-.article-section {
-    padding-top: 20px;
-    padding-left: 69px;
-    padding-bottom: 70px;
-}
-
-.article-section > .title {
+.article-section > .container > .title {
     font-weight: normal;
     margin-bottom: 70px;
     font-size: 50px;
     letter-spacing: -0.02em;
     line-height: 1.2em;
-    color: 	rgb(181,26,84);
+    color: 	$red-color;
+    @include respond(tab-port) {
+        font-size: 30px;
+    }
 }
 

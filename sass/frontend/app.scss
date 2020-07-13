@@ -2,22 +2,29 @@
 @import 'settings/reset';
 
 // tools
+@import 'tools/mixins';
 
 // generic
+@import 'generic/color';
+@import 'generic/main';
 
 // elements
 
 // objects
 
 // components
-@import 'components/body-setting';
 @import 'components/covid-info';
 @import 'components/top-header';
-@import 'components/search-bar';
+@import 'components/pc-navbar';
+@import 'components/search-box';
+@import 'components/sp-navbar';
 @import 'components/input-location';
 @import 'components/article-section';
-@import 'components/article-container';
+@import 'components/article-group';
 @import 'components/cooking-section';
+@import 'components/more-link';
+@import 'components/cooking-pc';
+@import 'components/cooking-sp';
 @import 'components/footer-section';
 @import 'components/footer-info';
 
