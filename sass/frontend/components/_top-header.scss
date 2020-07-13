@@ -1,13 +1,16 @@
 .top-header {
     width: 100%;
-    height: 83px;
+    height: 85px;
     position: relative;
+    @include respond(tab-port) {
+        display: none;
+    }
 }
 
 .top-header > .logo {
-    width: 103px;
+    width: 105px;
     object-fit: contain;
-    margin-left: 73px;
+    margin-left: 75px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -16,37 +19,38 @@
 }
 
 .top-header > .menu {
-    font-size: 13px;
+    font-size: 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
     position: absolute;
-    right: 93px;
+    right: 95px;
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
 }
 
-.top-header > .items > .item {
-    margin-right: 8px;
+.top-header  > .menu > .block > .item {
+    margin-right: 10px;
     letter-spacing: .1em;
     font-weight: bold;
-    color: black;
+    color: $black-color;
     text-decoration: none;
-    padding: 7px;
+    padding: 10px;
     border-radius: 50px;
 }
 
-.top-header > .items > .item:hover {
-    background-color: rgb(247,247,247);
+.top-header  > .menu > .block > .item:hover {
+    background-color: $light-gray-color;
 }
 
-.top-header > .register {
-    box-shadow: 0 0 8px gray;
-    color: black;
+.top-header  > .menu > .signup {
+    box-shadow: 0 0 8px $light-gray-color;
+    box-shadow: 0 0 8px ;
+    color: $black-color;
     font-weight: bold;
     text-decoration: none;
-    padding: 9px 17px;
+    padding: 10px 15px;
     border-radius: 50px;
 }

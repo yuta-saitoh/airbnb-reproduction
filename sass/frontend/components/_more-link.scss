@@ -1,0 +1,25 @@
+.more-link {
+    color: $white-color;
+    text-decoration: none;
+    padding: 10px;
+    border: solid 1px $white-color;
+    border-radius: 5px;
+    &.-pc {
+        display: block;
+        @include respond(tab-land) {
+            display: none;
+        }
+    }
+    &.-sp {
+        display: none;
+        @include respond(tab-land) {
+            display: block;
+            width: 15vw;
+            text-align: center;
+        }
+        @include respond(phone) {
+            width: 25vw;
+            margin: 0 auto;
+        }
+    }
+}
