@@ -1,8 +1,7 @@
 .more-link {
-    color: $white-color;
-    text-decoration: none;
+    color: $white;
     padding: 10px;
-    border: solid 1px $white-color;
+    border: solid 1px $white;
     border-radius: 5px;
     &.-pc {
         display: block;
@@ -13,13 +12,15 @@
     &.-sp {
         display: none;
         @include respond(tab-land) {
+            margin-top: 20px;
             display: block;
             width: 15vw;
             text-align: center;
         }
         @include respond(phone) {
+            font-size: 3.5vw;
+            padding: 6px;
             width: 25vw;
-            margin: 0 auto;
         }
     }
 }

@@ -6,10 +6,10 @@
     margin: 0 auto;
     padding: 40px 0;
     width: 80%;
+    max-width: 1500px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    border-bottom: solid 1px $light-gray-color;
+    border-bottom: solid 1px $gray-grey-area;
     @include respond(tab-land) {
         width: 90%;
         flex-direction: column;

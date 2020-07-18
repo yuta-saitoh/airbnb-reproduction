@@ -1,10 +1,7 @@
 .cooking-pc {
     margin-top: 30px;
-    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: $white-color;
+    color: $white;
     @include respond(phone) {
         display: none;
     }
@@ -16,7 +13,6 @@
 
 .cooking-pc > .rightside {
     width: 100%;
-    padding: 0 25px;
     @include respond(tab-land) {
         width: 50%;
     }
@@ -24,7 +20,6 @@
 
 .cooking-pc > .rightside > .top {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     @include respond(tab-land) {
         height: 100%;

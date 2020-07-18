@@ -1,0 +1,15 @@
+.corona-announce {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    background-color: $gray-grey-area;
+    text-align: center;
+}
+
+.corona-announce > .link {
+    color: $black;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: .05em;
+    text-decoration: underline;
+}

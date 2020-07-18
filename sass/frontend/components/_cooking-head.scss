@@ -1,0 +1,22 @@
+.cooking-head > .title {
+    font-size: 2rem;
+    @include respond(tab-port) {
+        font-size: 1.5rem;
+    }
+    @include respond(phone) {
+        font-size: 5vw;
+    }
+}
+
+.cooking-head > .subtitle {
+    color: $white;
+    width: 500px;
+    @include respond(tab-port) {
+        font-size: .8rem;
+        width: 350px;
+    }
+    @include respond(phone) {
+        font-size: 3vw;
+        width: 100%;
+    }
+}

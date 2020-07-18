@@ -1,0 +1,41 @@
+.site-header {
+    padding: 45px 0;
+    width: 95%;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    @include respond(tab-port) {
+        display: none;
+    }
+}
+
+.site-header > .logo {
+    width: 100px;
+    object-fit: contain;
+}
+
+.site-header > .menu {
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+}
+
+.site-header  > .menu > .list > .item {
+    margin-right: 10px;
+    letter-spacing: .1em;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.site-header  > .menu > .list > .item:hover {
+    background-color: $gray-grey-area;
+}
+
+.site-header  > .menu > .signup {
+    box-shadow: $shadow;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 50px;
+}

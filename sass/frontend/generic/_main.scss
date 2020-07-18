@@ -13,14 +13,18 @@
 .image {
     width: 100%;
     border-radius: 10px 10px 0 0;
+    object-fit: cover;
 }
 
 .text {
-    font-size: 15px;
+    font-size: .8rem;
     margin-top: -6px;
-    padding: 5px 10px;
+    padding: 10px;
     border-radius: 5px;
     background-color:rgb(34,34,34);
+    @include respond(tab-port) {
+        font-size: .6rem;
+    }
 }
 
 ul {

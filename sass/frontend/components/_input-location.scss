@@ -1,7 +1,7 @@
 .input-location {
     display: inline-block;
     height: 100%;
-    border-right: 1px solid $light-gray-color;
+    border-right: 1px solid $gray-grey-area;
     position: relative;
     width: 18%;
     &.-wide {
@@ -19,7 +19,7 @@
 .input-location .name {
     padding-top: 15px;
     margin-left: 25px;
-    font-size: 5px;
+    font-size: .5rem;
     font-weight: bold;
 }
 

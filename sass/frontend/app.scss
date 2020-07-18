@@ -1,5 +1,7 @@
 // settings
 @import 'settings/reset';
+@import 'settings/shadow';
+@import 'settings/fonts';
 
 // tools
 @import 'tools/mixins';
@@ -13,8 +15,8 @@
 // objects
 
 // components
-@import 'components/covid-info';
-@import 'components/top-header';
+@import 'components/corona-announce';
+@import 'components/site-header';
 @import 'components/pc-navbar';
 @import 'components/search-box';
 @import 'components/sp-navbar';
@@ -23,6 +25,7 @@
 @import 'components/article-group';
 @import 'components/cooking-section';
 @import 'components/more-link';
+@import 'components/cooking-head';
 @import 'components/cooking-pc';
 @import 'components/cooking-sp';
 @import 'components/footer-section';

@@ -1,10 +1,9 @@
 .cooking-section {
-    background-color: $black-color;
+    background-color: $black;
 }
 
 .cooking-section > .container > .top {
-    color: $white-color;
-    width: 100%;
+    color: $white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,15 +11,5 @@
     @include respond(phone) {
         flex-direction: column;
         margin-bottom: 20px;
-    }
-}
-
-.cooking-section > .container > .top > .subtitle {
-    color: $white-color;
-    text-decoration: none;
-    width: 500px;
-    @include respond(tab-port) {
-        font-size: 12px;
-        width: 350px;
     }
 }
